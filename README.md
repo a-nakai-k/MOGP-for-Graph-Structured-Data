@@ -9,13 +9,24 @@ A. Nakai-Kasai and T. Wadayama, ''[Multi-Output Gaussian Processes for Graph-Str
 Please refer to conda_requirements.txt.
 
 ## Usage
-Run:
+For experiments in Sect. IV-B, 
 ```
-pyhom3 baselines_synthetic1.py --model=standard --kernel=rbf --k=12
+pyhom3 synthetic1.py --model=standard --kernel=rbf --k=12
 ```
 ```
-pyhom3 baselines_synthetic2.py --model=standard --kernel=rbf
+pyhom3 synthetic1_ICM.py --kernel=rbf --k=12
 ```
+For experiments in Sect. IV-C, 
+```
+pyhom3 synthetic2.py --model=standard --kernel=rbf
+```
+```
+pyhom3 synthetic2_graphpc.py --model=diffusion
+```
+```
+pyhom3 synthetic2_ICM.py --kernel=rbf
+```
+For experiments with real data, please refer to the following reference.
 
 ## License
 This project is licensed under the MIT License, see the LICENSE file for details.
@@ -30,7 +41,7 @@ nakai.ayano@nitech.ac.jp
 ## Acknowledgment
 Some parts of the functions are based on the implementation by Yin-Cong Zhi (Zhi et al., 2023).
 
-## References
+## Reference
 Y.-C. Zhi, Y. C. Ng, and X. Dong, ”Gaussian processes on graphs via
 spectral kernel learning,” IEEE Trans. Signal Inf. Process. Netw., vol. 9,
 pp. 304–314, Apr. 2023. [GitHub](https://github.com/yincong-zhi/Polynomial_Kernel_Learning)
