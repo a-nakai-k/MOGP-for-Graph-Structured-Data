@@ -11,7 +11,10 @@ Please refer to conda_requirements.txt.
 ## Usage
 Run:
 ```
-pyhom3 baselines_synthetic.py --data=synthetic1 --model=standard --kernel=rbf
+pyhom3 baselines_synthetic1.py --model=standard --kernel=rbf --k=12
+```
+```
+pyhom3 baselines_synthetic2.py --model=standard --kernel=rbf
 ```
 
 ## License
