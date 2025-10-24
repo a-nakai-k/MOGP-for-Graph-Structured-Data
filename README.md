@@ -11,20 +11,20 @@ Please refer to conda_requirements.txt.
 ## Usage
 For experiments in Sect. IV-B, 
 ```
-pyhom3 synthetic1.py --model=standard --kernel=rbf --k=12
+python3 synthetic1.py --model=standard --kernel=rbf --k=12
 ```
 ```
-pyhom3 synthetic1_ICM.py --kernel=rbf --k=12
+python3 synthetic1_ICM.py --kernel=rbf --k=12
 ```
 For experiments in Sect. IV-C, 
 ```
-pyhom3 synthetic2.py --model=standard --kernel=rbf
+python3 synthetic2.py --model=standard --kernel=rbf
 ```
 ```
-pyhom3 synthetic2_graphpc.py --model=diffusion
+python3 synthetic2_graphpc.py --model=diffusion
 ```
 ```
-pyhom3 synthetic2_ICM.py --kernel=rbf
+python3 synthetic2_ICM.py --kernel=rbf
 ```
 For experiments with real data, please refer to the following reference.
 
